@@ -17,3 +17,16 @@ input, button, textarea, select {
     font-size: inherit; /* 폰트 사이즈 상속 */
     color: inherit; /* 텍스트 색상 상속 */
 }
+
+ul>li, ol>li {
+    list-style-type: none;
+}
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix::before, .clearfix::after {
+    display: block; 
+    content: ""; 
+    line-height: 0;
+}
+.clearfix::after {clear: both;}
