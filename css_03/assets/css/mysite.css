@@ -21,7 +21,9 @@
 }
 
 #wrap #footer {
-    background-color: purple;
+    padding: 15px 0px;
+    background-color: #e7eaed;
+    text-align: center;
 }
 
 
@@ -48,3 +50,23 @@
     border: 1px solid #c0c0c0;
 }
 
+
+/* 네비(상단메뉴) */
+#nav ul{
+    padding: 15px 0px; 
+}
+
+#nav ul>li{
+    float: left;
+    width: 250px;
+   
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* footer */
+#footer p{
+    font-size: 15px;
+}
