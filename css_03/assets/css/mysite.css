@@ -17,6 +17,7 @@
 }
 
 #wrap #contents {
+    padding: 30px 20px;
     background-color: red;
 }
 
@@ -65,6 +66,20 @@
     font-weight: bold;
     font-size: 18px;
 }
+
+
+/* 메인컨텐츠 */
+#contents #profile{
+    float: left;
+    width: 300px;
+}
+#contents #greeting-box{
+    float: left;
+    border: 1px solid #000
+}
+
+
+
 
 /* footer */
 #footer p{
