@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.container {
+    width: 700px;
+    height: 200px;
+    border: 5px solid black;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.container.row{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container.column{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.item1 {
+    border: 3px solid red;
+    /* width: 200px; */
+    /* flex-basis: auto; */
+    width: 30%
+}
+
+.item2 {
+    border: 3px solid blue;
+    width: 30%
+}
+
+.item3 {
+    border: 3px solid green;
+    width: 36%
+}
