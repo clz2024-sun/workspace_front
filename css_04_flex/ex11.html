@@ -14,9 +14,10 @@
             <ul>
                 <li><a href="" class="btn_s">로그인</a></li>
                 <li><a href="" class="btn_s">회원가입</a></li>
+                <li id="hamburger" class="btn_s hidden">☰</li> <!-- 햄버거 버튼 추가 -->
             </ul>
         </div>
-        <div id="nav">
+        <div id="nav" class="hidden"> <!-- 기본적으로 숨김 -->
             <ul>
                 <li><a href="" class="btn_s">입사지원서</a></li>
                 <li><a href="" class="btn_s">게시판</a></li>
@@ -25,14 +26,9 @@
             </ul>
         </div>
         <div id="container" class="clearfix">
-            <!-- aside 없음 -->
             <div id="full-content">
-            
-                <!-- content-head 없음 -->
                 <div id="index"> 
-                
                     <img id="profile-img" src="./profile.jpg">
-                    
                     <div id="greetings">
                         <p class="text-xlarge">
                             <span class="bold">안녕하세요!!<br>
@@ -52,27 +48,21 @@
                             <a class="" href="">[방명록에 글 남기기]</a>
                         </p>	
                     </div>
-                    <!-- //greetings -->
-                    
                     <div class="clear"></div>
-                    
                 </div>
-                <!-- //index -->
-                
             </div>
-            <!-- //full-content -->
-            
-    
         </div>
-        <!-- //container -->
-        
-        
         <div id="footer">
             Copyright ⓒ 2020 황일영. All right reserved
         </div>
-        <!-- //footer -->
     </div>
-    
 
+    <script>
+        // 햄버거 버튼 클릭 시 네비게이션 토글
+        document.getElementById('hamburger').addEventListener('click', function() {
+            var nav = document.getElementById('nav');
+            nav.classList.toggle('hidden');
+        });
+    </script>
 </body>
 </html>

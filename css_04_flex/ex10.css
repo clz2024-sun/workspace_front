@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* 레이아웃 */
+#wrap {
+    width: 1000px;
+    background-color: #d6d6d6;
+    margin: 0 auto;
+}
+
+#wrap #header {
+    background-color: red;
+}
+
+#wrap #nav {
+    background-color: yellow;
+}
+
+#wrap #main {
+    background-color: green;
+}
+
+#wrap #footer {
+    background-color: blue;
+}
+
+
+/* 레이아웃 디테일*/
