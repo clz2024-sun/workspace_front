@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .container {
-    width: 700px;
+    /* width: 900px; */
     height: 200px;
     border: 5px solid black;
     margin-bottom: 50px;
@@ -26,16 +26,21 @@
 .item1 {
     border: 3px solid red;
     /* width: 200px; */
-    /* flex-basis: auto; */
-    width: 30%
+    /* width: 30% */
+    flex-basis: 100px;
+    flex-grow: 1;
 }
 
 .item2 {
     border: 3px solid blue;
-    width: 30%
+    /* width: 30% */
+    flex-basis: 300px;
+    flex-grow: 1;
 }
 
 .item3 {
     border: 3px solid green;
-    width: 36%
+    /* width: 36% */
+    flex-basis: 100px;
+    flex-grow: 1;
 }
