@@ -1,27 +1,76 @@
 @charset "UTF-8";
-
 /* 레이아웃 */
 #wrap {
-    width: 1000px;
-    background-color: #d6d6d6;
+    min-width: 700px;
     margin: 0 auto;
+
+    /* border:1px solid black */
 }
 
-#wrap #header {
-    background-color: red;
+#wrap header {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000000;
 }
 
-#wrap #nav {
-    background-color: yellow;
+#wrap nav {
+    border-bottom: 1px solid #000000;
 }
 
-#wrap #main {
-    background-color: green;
+#wrap main{
+    background-color: burlywood;
 }
 
-#wrap #footer {
-    background-color: blue;
+#wrap footer{
+    background-color: greenyellow;
 }
 
 
-/* 레이아웃 디테일*/
+/* header ***********************************/
+/* 로고 */
+#wrap header h1>a {
+    font-size: 36px;
+    font-weight: bold;
+    color: #79B30B;
+}
+
+/* 로그인 회원가입버튼 */
+#wrap header ul{
+    display: flex;
+    width: 400px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+#wrap header .btn-s {
+    padding: 3px 6px 3px 6px;
+    margin-left: 5px;
+    border: 1px solid #bfbfbf;
+    border-radius: 2px;
+    background-color: #ffffff;
+    font-size: 10px;
+}
+
+/* nav ***********************************/
+#wrap nav ol {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#wrap nav ol>li {
+    font-size: 20px;
+    font-weight: bold;
+    flex-grow: 1;
+    flex-basis: 0;
+
+    text-align: center;
+
+}
+
+
